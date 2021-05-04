@@ -326,12 +326,6 @@
          "id":54,
          "name":"Stream",
          "opacity":1,
-         "properties":[
-                {
-                 "name":"openWebsite",
-                 "type":"string",
-                 "value":"https:\/\/www.youtube.com\/embed\/C4uJJnYAl94?autoplay=1"
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":104,
@@ -904,6 +898,12 @@
  "nextlayerid":55,
  "nextobjectid":2,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"script",
+         "type":"string",
+         "value":"Scripts\/eventroom.js"
+        }],
  "renderorder":"right-down",
  "tiledversion":"1.6.0",
  "tileheight":32,
