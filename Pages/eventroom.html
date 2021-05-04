@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- <script src="https://play.workadventu.re/iframe_api.js"></script> -->
+    </head>
+    <body>
+		<iframe id="video" width="1280" height="861" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<script>
+			var date = new Date();
+			var video = "https://www.youtube.com/embed/C4uJJnYAl94"
+			if(parseInt(date.getSeconds() / 10) % 2) {
+				video = "https://www.youtube.com/embed/UZt641rgLAg"
+			}
+			document.getElementById("video").setAttribute("src", video);
+		</script>
+    </body>
+</html>
