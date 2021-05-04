@@ -330,7 +330,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"Pages\/eventroom.html"
+                 "value":"https:\/\/kolle-frankfurt.de\/wp-content\/workadventure\/eventroom.html"
                 }],
          "type":"tilelayer",
          "visible":true,
